@@ -26,8 +26,8 @@ contract Crowdsale is Ownable {
     mapping(address => uint) public balances;
  
     function Crowdsale() public{
-      multisig = 0x;
-      restricted = 0x;
+      multisig =  0x552c5db52afb926e545f6a3ab52352115a472ac3;
+      restricted =  0x552c5db52afb926e545f6a3ab52352115a472ac3;
       restrictedPercent = 24;
       rate = 100000000000;
       start = 1519927200;
