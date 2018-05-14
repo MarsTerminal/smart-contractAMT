@@ -33,7 +33,7 @@ contract Crowdsale is Ownable {
       start = 1519927200;
       period = 56;
       hardcap = 7428000000000000000000;
-      softcap = 340000000000000000000;
+      softcap = 34000000000000000000;
     }
  
     modifier saleIsOn() {
